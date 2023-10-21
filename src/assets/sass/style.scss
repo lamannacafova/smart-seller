@@ -1,0 +1,44 @@
+@import "panel";
+@import "home";
+@import "feedback";
+@import "user";
+@import "admin";
+@import "request";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+.dark{
+    --bgColor:#000;
+    --color:#fff;
+    --greyBgColor:#000;
+    --greyColor:#fff;
+    --darkBlueColor:#fff;
+    --darkColor:#fff;
+    --darkBlackColor:#fff;
+    --darkBluesColor:#fff;
+    --lightBlueColor:#4285f4;
+
+}
+.light{
+    --bgColor:#fff;
+    --color:#000;
+    --greyBgColor:#F5F5F5;
+    --greyColor:#626A79;
+    --darkBlueColor:#1C222D;
+    --darkColor:#202020;
+    --darkBlackColor:#362C44;
+    --darkBluesColor:#1C222D;
+    --lightBlueColor:#4285f4;
+}
